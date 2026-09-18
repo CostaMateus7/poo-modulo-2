@@ -43,7 +43,7 @@ public class ContaCorrente {
     }
 
     public void rendimento() {
-        if (saldo >= 0) {
+        if (saldo > 0) {
             saldo += saldo * juros;
         }
     }
