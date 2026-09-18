@@ -33,7 +33,7 @@ No método `main`, é criada uma instância da classe `ContaCorrente`:
 ContaCorrente conta = new ContaCorrente(
     "Mateus",
     "Santos",
-    123456789
+    123456789L
 );
 ```
 
